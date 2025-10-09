@@ -1,0 +1,25 @@
+.about {
+  background-color: #1c1c1c;
+  border-left: 6px solid #4DB6AC;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(77, 182, 172, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.about:hover {
+  transform: translateY(-4px);
+}
+
+.about h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #4DB6AC;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #E0E0E0;
+}

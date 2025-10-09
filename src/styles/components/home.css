@@ -1,0 +1,62 @@
+/* Root section styling */
+.home {
+  background: linear-gradient(to bottom right, #121212, #2A3D66);
+  color: #FAFAFA;
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Intro container */
+.intro {
+  text-align: center;
+  background-color: rgba(18, 18, 18, 0.8);
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(77, 182, 172, 0.3);
+}
+
+/* Headline */
+.intro h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #4DB6AC;
+}
+
+/* Paragraphs */
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #E0E0E0;
+}
+
+/* CTA Buttons container */
+.cta-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Button styling */
+.home-btn {
+  background-color: #4DB6AC;
+  color: #121212;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.home-btn:hover {
+  background-color: #2A3D66;
+  color: #FAFAFA;
+  transform: translateY(-2px);
+}
