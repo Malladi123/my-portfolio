@@ -1,3 +1,27 @@
+/* About section full-bleed background using pseudo-element */
+.about {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  background: linear-gradient(120deg, var(--bg-2) 0%, var(--bg) 100%);
+  z-index: -1;
+}
+
+.about h2 { font-family: var(--font-heading); color: var(--accent); text-align: center; margin-bottom: 1.5rem; }
+.about p { color: var(--muted); max-width: 720px; margin: 0.5rem auto; line-height: 1.8; }
 .about {
   background-color: #1c1c1c;
   border-left: 6px solid #4DB6AC;

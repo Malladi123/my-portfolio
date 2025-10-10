@@ -1,3 +1,39 @@
+/* Experience section full-bleed background using pseudo-element */
+.experience-section {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  flex-direction: column;
+}
+
+.experience-section::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  background: linear-gradient(to bottom, var(--bg) 0%, rgba(26,26,26,0.9) 100%);
+  z-index: -1;
+}
+
+.experience-cards {
+  width: 100%;
+  max-width: var(--container-max);
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .experience-cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+.experience-section h2 { font-family: var(--font-heading); color: var(--accent); margin-bottom: 2rem; }
 .experience-card {
   background-color: #1c1c1c;
   border-left: 6px solid #4DB6AC;

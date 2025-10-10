@@ -15,9 +15,9 @@ const Home = () => {
           I bring both technical depth and creative flair to every project.
         </p>
         <div className="cta-buttons">
-          <Link to="/about" className="home-btn">Learn More</Link>
-          <Link to="/experience" className="home-btn">View Experience</Link>
-          <Link to="/contact" className="home-btn">Get in Touch</Link>
+          <Link to="/about" className="btn btn--primary">Learn More</Link>
+          <Link to="/experience" className="btn btn--primary">View Experience</Link>
+          <Link to="/contact" className="btn btn--primary">Get in Touch</Link>
         </div>
       </div>
     </section>

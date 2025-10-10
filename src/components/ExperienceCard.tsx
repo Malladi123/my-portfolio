@@ -1,4 +1,4 @@
-import '../styles/components/experience.css'; // Optional: for styling
+import '../styles/components/experienceCard.css'; // Card-specific styling
 import type { ExperienceItem } from '../data/experience.ts';
 
 interface Props extends Partial<ExperienceItem> {
