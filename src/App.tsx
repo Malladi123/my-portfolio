@@ -4,8 +4,12 @@ import Home from './pages/Home';
 import Experience from './pages/Experience';
 
 function App() {
+  // Use the Vite base path as router basename so routes resolve correctly
+  // when the app is deployed under a subpath (e.g. /my-portfolio/).
+  const basename = import.meta.env.BASE_URL || '/';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
