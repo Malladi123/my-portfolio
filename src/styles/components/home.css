@@ -48,16 +48,3 @@
   color: var(--muted);
 }
 
-/* CTA Buttons container */
-.cta-buttons {
-  margin-top: var(--gap-lg);
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-/* Button styling */
-.home .btn { padding: 0.75rem 1.5rem; }
-.home .btn--primary { background-color: var(--accent); color: #121212; }
-.home .btn--primary:hover { background-color: var(--bg-2); color: var(--text); transform: translateY(-2px); }

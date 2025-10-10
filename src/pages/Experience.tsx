@@ -1,6 +1,7 @@
 import ExperienceCard from '../components/ExperienceCard';
 import experience from '../data/experience.ts';
 import type { ExperienceItem } from '../data/experience.ts';
+import { Link } from 'react-router-dom';
 import '../styles/components/experience.css';
 
 const Experience = () => {
@@ -18,6 +19,11 @@ const Experience = () => {
             description={job.description}
           />
         ))}
+      </div>
+      <div className="cta-buttons">
+        <Link to="/" className="btn btn--primary">Home</Link>
+        <Link to="/about" className="btn btn--primary">Learn More</Link>
+        <Link to="/contact" className="btn btn--primary">Get in Touch</Link>
       </div>
     </section>
   );
