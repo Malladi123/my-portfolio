@@ -17,7 +17,7 @@ const Home = () => {
         <div className="cta-buttons">
           <Link to="/about" className="btn btn--primary">Learn More</Link>
           <Link to="/experience" className="btn btn--primary">View Experience</Link>
-          <Link to="/contact" className="btn btn--primary">Get in Touch</Link>
+          <Link to="/contact" className="btn btn--primary"> Blogs </Link>
         </div>
       </div>
     </section>
