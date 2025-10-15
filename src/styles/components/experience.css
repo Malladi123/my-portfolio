@@ -10,6 +10,7 @@
 }
 
 .experience-section::before {
+  /* decorative layer kept transparent so the app-root background is visible */
   content: '';
   position: absolute;
   left: 50%;
@@ -17,7 +18,7 @@
   top: 0;
   bottom: 0;
   width: 100vw;
-  background: linear-gradient(to bottom, var(--bg) 0%, rgba(26,26,26,0.9) 100%);
+  background: transparent;
   z-index: -1;
 }
 
