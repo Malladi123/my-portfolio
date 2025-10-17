@@ -7,17 +7,20 @@ const Home = () => {
       <div className="intro">
         <h1>Hi, I'm Venkata Rakesh Malladi</h1>
         <p>
-          A passionate Frontend Engineer with over a decade of experience crafting scalable, responsive web applications.
-          I specialize in Angular, React, and internationalization—blending clean architecture with user-centric design.
+          Frontend engineer focused on building Scalable, Accessible web apps with Modern Frameworks.
         </p>
-        <p>
-          Whether it's building modular UI libraries, optimizing performance, or collaborating across global teams,
-          I bring both technical depth and creative flair to every project.
-        </p>
+
+        <div className="stats-row" aria-hidden>
+          <div className="stat">10+ years</div>
+          <div className="stat">React · Angular · Typecript · Javascript</div>
+          <div className="stat">HTML5 · CSS3 · Angular Material · Bootstrap</div>
+          <div className="stat">i18n</div>
+        </div>
+
         <div className="cta-buttons">
           <Link to="/about" className="btn btn--primary">Learn More</Link>
           <Link to="/experience" className="btn btn--primary">View Experience</Link>
-          <Link to="/contact" className="btn btn--primary"> Blogs </Link>
+          <Link to="/contact" className="btn btn--primary">Contact</Link>
         </div>
       </div>
     </section>

@@ -11,7 +11,7 @@ const experience: ExperienceItem[] = [
     title: "Sr. Software Engineer",
     company: "ACI Worldwide",
     location: "Bengaluru",
-    duration: "Feb 2023 – Present",
+    duration: "Feb 2023 – Aug 2025",
     description: [
       "Designed and maintained a modular Angular codebase, improving scalability and reducing maintenance overhead by 15%.",
       "Upgraded APSF from Angular 12 to 15, enhancing performance and visual consistency.",
